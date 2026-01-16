@@ -82,3 +82,4 @@ tau_est = t(idx);
 R_est = c * tau_est / 2;         % calcular rango estimado
 
 fprintf('Rango estimado: %.2f km\n', R_est/1e3);  % resultado
+
