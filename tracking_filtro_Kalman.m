@@ -111,3 +111,4 @@ ylabel('Velocidad (m/s)')
 legend('Real','Medido','Kalman')
 title('Tracking de velocidad')
 grid on
+
