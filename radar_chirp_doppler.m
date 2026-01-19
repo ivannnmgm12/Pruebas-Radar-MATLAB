@@ -1,4 +1,4 @@
-%% ============================================================
+%% ===========================================================
 %  RADAR CHIRP CON ESTIMACION CORRECTA DE DOPPLER
 %  - Rango por matched filter
 %  - Doppler por FFT en slow-time (celda detectada)
@@ -149,3 +149,4 @@ ylim([-40 0])
 [~, idx_v] = max(doppler_dB);
 
 fprintf('Velocidad estimada: %.2f m/s\n', v_axis(idx_v));
+
